@@ -1,0 +1,93 @@
+<!-- <ion-view view-title="Browse">
+  <ion-content>
+    <h1>Do you have dimples?</h1>
+  </ion-content>
+</ion-view>
+-->
+
+ <ion-view hide-back-button="true" view-title=""  hide-nav-bar="true" drag-back cache-view="false">
+
+
+    <ion-content has-header="true" class="slide-in-both-ways skinbg">
+
+
+
+
+  <div id="overlay">
+
+
+  <div id="overlaynumbers7">
+
+      <div id ="numbers">
+        <span id="total-matches7"></span>
+        <span id="total-number7"></span><br/>
+      </div>
+
+    <div id="breadcrumb"></div>
+        <span class="contbutton" ng-click="nextquestion()"><img src="../img/button.svg"/></span>
+  </div>
+
+              
+</div>
+
+  <div id="moreoverlay7">
+
+    <div class="moretitle">SKIN COLOR & ANCESTRY &nbsp; &nbsp; <img id="evenmorebutton" ng-click="showevenmore()" src="../img/morebutton.svg" height="20"/></div>
+    <p>Skin color is determined primarily by genes that produce melanin, a protein pigment in skin cells.  Your skin color reflects the geographic origins of your ancestors.  If you're dark-skinned, your ancestors most likely lived near the equator or in other areas with intense sunlight.  If you're light-skinned, your ancestors probably came from more temperate regions of the globe. <a ng-click="hidemoreoverlay()">close</a></p>
+   
+  </div>
+
+
+<div id="container7"></div>
+
+     <div id="traitquestion">WHAT COLOR IS YOUR  <span class="dk">SKIN</span>?</div>
+
+
+    <div id="scene7" class="trait"> 
+
+
+          <div class="yesno">
+
+            <div class="box" id="box1">
+               <button class="button button-light" ng-click="answered('light')" >LIGHT</button>
+              </div>
+
+              
+
+            <div class="box" id="box2">
+               <button class="button button-light" ng-click="answered('medium-light')">MEDIUM-LIGHT</button>
+            </div>
+
+
+             <div class="box" id="box1">
+               <button class="button button-light" ng-click="answered('medium')" >MEDIUM</button>
+              </div>
+
+              
+
+            <div class="box" id="box2">
+               <button class="button button-light" ng-click="answered('medium-dark')">MEDIUM-DARK</button>
+            </div>
+
+
+              <div class="box" id="box1">
+               <button class="button button-light" ng-click="answered('dark')" >DARK</button>
+              </div>
+
+              
+     
+        </div>  
+<!--
+        <div class="morebutton" ng-click="showmoreoverlay()"><img src="../img/morebutton.svg"/></div> -->
+
+
+    </div>
+
+
+    </ion-content>
+  </ion-view>
+
+
+
+  
+

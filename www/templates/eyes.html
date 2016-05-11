@@ -1,0 +1,84 @@
+<!-- <ion-view view-title="Browse">
+  <ion-content>
+    <h1>Do you have dimples?</h1>
+  </ion-content>
+</ion-view>
+-->
+
+ <ion-view hide-back-button="true" view-title=""  hide-nav-bar="true" drag-back cache-view="false">
+
+
+    <ion-content has-header="true" class="slide-in-both-ways eyesbg">
+
+
+
+
+  <div id="overlay">
+  <div id="overlaynumbers4">
+  
+
+   <div id ="numbers">
+        <span id="total-matches4"></span>
+        <span id="total-number4"></span><br/>
+      </div>
+
+    <div id="breadcrumb"></div>
+        <span class="contbutton" ng-click="nextquestion()"><img src="../img/button.svg"/></span>
+  </div>
+
+              
+</div>
+
+  <div id="moreoverlay4">
+
+    <div class="moretitle">EYE COLOR GENES &nbsp; &nbsp; <img id="evenmorebutton" ng-click="showevenmore()" src="../img/morebutton.svg" height="20"/></div>
+    <p>At least three pairs of genes may affect eye color, allowing for a wide range of eye colors.  This also makes it possible for brown-eyed parents to pass on genes that combine to produce blue-eyed children. <a ng-click="hidemoreoverlay()">close</a></p>
+   
+  </div>
+
+  <div id="container4"></div>
+
+
+    <div id="scene4" class="trait"> 
+
+     <div id="traitquestion">WHAT COLOR<br/>ARE YOUR <span class="dk">EYES</span>?</div>
+
+      <div class="yesno">
+
+
+            <div class="box" id="box1">
+               <button class="button button-light" ng-click="answered('blue')" >BLUE</button>
+              </div>
+
+              
+               <span class="or" id="or"></span>
+
+            <div class="box" id="box2">
+               <button class="button button-light" ng-click="answered('brown')">BROWN</button>
+            </div>
+        </div> 
+
+         <div class="yesno">
+
+
+            <div class="box" id="box1">
+               <button class="button button-light" ng-click="answered('green')" >GREEN</button>
+              </div>
+
+              
+               <span class="or" id="or"></span>
+
+            <div class="box" id="box2">
+               <button class="button button-light" ng-click="answered('hazel')">HAZEL</button>
+            </div>
+        </div>   
+    </div>
+
+
+    </ion-content>
+  </ion-view>
+
+
+
+  
+

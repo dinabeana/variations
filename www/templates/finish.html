@@ -1,0 +1,147 @@
+<!-- <ion-view view-title="Browse">
+  <ion-content>
+    <h1>Do you have dimples?</h1>
+  </ion-content>
+</ion-view>
+-->
+
+
+ <ion-view hide-back-button="true" view-title=""  hide-nav-bar="true" drag-back>
+    <ion-content has-header="true" class="slide-in-both-ways" >
+
+
+     <div class="finishtitle">YOUR GENETIC VARIANCE<br/>
+
+      <div id ="numbers">
+        <span id="total-matchesfinish">12</span>
+        <span id="total-numberfinish">of 234</span><br/>
+        <span id="total-phrase">people are like you</span>
+        <br/><br/>
+      </div>
+
+        <div class="startbutton center" ng-click="startApp()"><img src="../img/button.svg"/></div>
+
+           <p>START OVER</p>
+
+     </div>
+
+		<div id="statcontainer">
+
+		    <div class="statrow">
+          <div class="stattitle">MALE OR FEMALE?</div>
+          <div class="statanswer" id="genderselected"></div>
+        </div>
+		      <div class="statbar"></div>
+
+
+        <div class="statrow">
+          <div class="stattitle">RING FINGER LONGER?</div>
+          <div class="statanswer" id="fingerselected"></div>
+        </div>
+          <div class="statbar"></div>
+
+        <div class="statrow">
+          <div class="stattitle">EARLOBES ATTACHED?</div>
+          <div class="statanswer" id="earsselected"></div>
+        </div>
+          <div class="statbar"></div>
+        <div class="statrow">
+          <div class="stattitle">EYE COLOR?</div>
+          <div class="statanswer" id="eyecolorselected"></div>
+        </div>
+          <div class="statbar"></div>
+
+
+        <div class="statrow">
+          <div class="stattitle">WIDOW'S PEAK?</div>
+          <div class="statanswer" id="widowspeakselected"></div>
+        </div>
+          <div class="statbar"></div>
+
+        <div class="statrow">
+          <div class="stattitle">DIMPLES?</div>
+          <div class="statanswer" id="dimplesselected"></div>
+        </div>
+          <div class="statbar"></div>
+
+	       <div class="statrow">
+          <div class="stattitle">SKIN COLOR?</div>
+          <div class="statanswer" id="skincolorselected"></div>
+        </div>
+          <div class="statbar"></div>
+    </div>
+
+    <div class="finishtxt">
+    <p>
+    It all started with your parents' genes when a egg cell from your mother combined with a sperm cell from your father. <span ng-click="finishshowmore()"><b>Learn More</b></span></p>    
+
+
+
+	<p>You inherited your parents' genes when a egg cell from your mother combined with a spermc cell from your father.  Each of these sex cells contributed half of the genes that produced you.  That's shy your collection of genes (your genome) is unlike anyone else's (unless you're an identical twin), yet you look like your parents.</p>
+
+	<p>This mixing of genes during sexual reproduction gives humans the range of physical, mental, and behavioral traits.  Over generations, such variation protects humans against catastrophic events, like devastating climate changes or epidemic diseases, because at least some individuals will have genes hat allow them to survive.</p>
+
+	 <div class="center"><img ng-click="finishhidemore()" src="../img/closebutton.svg"/></div>
+
+
+    </div>
+
+
+	<div id="finishoverlay"  class="finishtxt">
+
+ 		<p>
+      </p>
+
+     
+
+	</div>
+
+
+  <div id="learnmoreoverlay">
+
+  <p><b>Heredity is the process of passing traits from parents to offspring through genes.</b></p>
+
+<p>The genetic traits you inherit from your parents are stored in complex threadlike structures called chromosomes.  You have 23 pairs of chromosomes in the nucleus of almost every cell in your body.</p>
+
+<p>Each chromosome contains one molecule of DNA, which contains instructions affecting everything from your hair color to your sex. These instructions are broke into segments called genes.  You have about 30,000 or so genes; you inherit half of them from your mother and half from your father.</p>
+
+ <div class="center"><img ng-click="hidelearnmore()" src="../img/closebutton.svg"/></div>
+   
+  </div>
+
+
+    <div id="aboutoverlay">
+
+  <p>The <b>Exploratorium</b> is an eye-opening, playful learning laboratory in San Francisco, CA that continues to offer the world creative, thought-provoking experiences that spark inquiry, encourage exploration, and generally blow minds.</p>
+
+<p>Visit us @ <b>Pier 15 in San Francisco, CA</b><br/> 
+or online @ <a href="">http://www.exploratorium.edu</a></p>
+
+<p class="credits">App Credits: <br/>
+Dina Herring and Lowell Robinson<br/>
+Digital Experiences Lab @ Exploratorium<br/>
+Special thanks to Rob Semper and Living Systems Gallery for content and support.</p>
+
+
+
+ <div class="center"><img ng-click="hideabout()" src="../img/closebutton.svg"/></div>
+   
+  </div>
+  
+
+         <div class="footer">
+          <div class="ad-left">
+            <img ng-click="showlearnmore()" src="../img/hint@3x.png" width="180"/>
+          </div>
+          <div class="ad-right">
+              <img ng-click="showabout()" src="../img/logo@3x.png" width="100"/> 
+          </div>
+        <div class="clear"></div>
+        </div>
+
+   
+
+
+
+    </ion-content>
+  </ion-view>

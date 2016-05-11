@@ -1,0 +1,68 @@
+<!-- <ion-view view-title="Browse">
+  <ion-content>
+    <h1>Do you have dimples?</h1>
+  </ion-content>
+</ion-view>
+-->
+
+ <ion-view hide-back-button="true" view-title=""  hide-nav-bar="true" drag-back cache-view="false">
+
+
+    <ion-content has-header="true" class="slide-in-both-ways widowspeakbg">
+
+
+
+  <div id="overlay">
+
+
+  <div id="overlaynumbers5">
+
+      <div id ="numbers">
+        <span id="total-matches5"></span>
+        <span id="total-number5"></span><br/>
+      </div>
+
+    <div id="breadcrumb"></div>
+        <span class="contbutton" ng-click="nextquestion()"><img src="../img/button.svg"/></span>
+  </div>
+
+              
+</div>
+
+  <div id="moreoverlay5">
+
+    <div class="moretitle">INHERITING THE HAIRLINE &nbsp; &nbsp; <img id="evenmorebutton" ng-click="showevenmore()" src="../img/morebutton.svg" height="20"/></div>
+    <p>The interaction of a complex network of genes controls wether of not you'll have a widow's peak.  If you do have a widow's peak, it's likely that both your parents have one.  If they don't, then your grandparents probably did, because the grouping of genes needed to produce this trait can sometimes skip a generation. <a ng-click="hidemoreoverlay()">close</a></p>
+   
+  </div>
+
+
+  <div id="container5"></div>
+
+    <div id="traitquestion">DO YOU HAVE<br/>A <span class="dk">WIDOWS PEAK</span>?</div>
+
+    <div id="scene5" class="trait"> 
+      <div class="yesno">
+
+
+            <div class="box" id="box1">
+               <button class="button button-light" ng-click="answered('yes')" >YES</button>
+              </div>
+
+              
+               <span class="or" id="or"></span>
+
+            <div class="box" id="box2">
+               <button class="button button-light" ng-click="answered('no')">NO</button>
+            </div>
+        </div>  
+    </div>
+
+
+    </ion-content>
+  </ion-view>
+
+
+
+  
+

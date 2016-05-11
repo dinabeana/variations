@@ -1,0 +1,66 @@
+
+
+ <ion-view hide-back-button="true" view-title=""  hide-nav-bar="true" drag-back cache-view="false">
+
+
+    <ion-content has-header="true" class="slide-in-both-ways fingerbg">
+
+
+
+
+  <div id="overlay">
+
+
+
+  <div id="overlaynumbers2">
+
+      <div id ="numbers">
+        <span id="total-matches2"></span>
+        <span id="total-number2"></span><br/>
+      </div>
+
+    <div id="breadcrumb1"></div>
+        <span class="contbutton" ng-click="nextquestion()"><img src="../img/button.svg"/></span>
+  </div>
+
+  </div>
+
+
+    <div id="moreoverlay2">
+
+    <div class="moretitle">THE FINGER-GENDER CONNECTION&nbsp; &nbsp; <img id="evenmorebutton" ng-click="showevenmore()" src="../img/morebutton.svg" height="20"/></div>
+    <p>The length of your ring finger tends to be related to your sex.  Men usually have index fingers that are shorter than their ring fingers; women usually have index fingers that are longer than their ring fingers.<a ng-click="hidemoreoverlay()">close</a></p>
+   
+  </div>
+
+
+  <div id="container2"></div>
+
+      <div id="traitquestion">IS YOUR <span class="dk">RING<br/> FINGER LONGER</span><br/>THAN YOUR<br/> INDEX FINGER?</div>
+
+
+    <div id="scene2" class="trait"> 
+      <div class="yesno">
+
+
+            <div class="box" id="box1">
+               <button class="button button-light" ng-click="answered('yes')" >YES</button>
+              </div>
+
+              
+               <span class="or" id="or"></span>
+
+            <div class="box" id="box2">
+               <button class="button button-light" ng-click="answered('no')">NO</button>
+            </div>
+        </div>  
+    </div>
+
+
+    </ion-content>
+  </ion-view>
+
+
+
+  
+
